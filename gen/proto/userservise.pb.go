@@ -4,7 +4,7 @@
 // 	protoc        v6.31.0
 // source: proto/userservise.proto
 
-package user
+package userservise
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -258,7 +258,7 @@ const file_proto_userservise_proto_rawDesc = "" +
 	"\vUserService\x126\n" +
 	"\aGetUser\x12\x14.user.GetUserRequest\x1a\x15.user.GetUserResponse\x12?\n" +
 	"\n" +
-	"CreateUser\x12\x17.user.CreateUserRequest\x1a\x18.user.CreateUserResponseB%Z#github.com/marj4/proto_example;userb\x06proto3"
+	"CreateUser\x12\x17.user.CreateUserRequest\x1a\x18.user.CreateUserResponseB,Z*github.com/marj4/proto_example;userserviseb\x06proto3"
 
 var (
 	file_proto_userservise_proto_rawDescOnce sync.Once
